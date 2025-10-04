@@ -1,0 +1,13 @@
+{
+  "itemGroup.createaoibhesgrates": "Example Mod Tab",
+  "block.createaoibhesgrates.example_block": "Example Block",
+  "item.createaoibhesgrates.example_item": "Example Item",
+
+  "createaoibhesgrates.configuration.title": "Create: Aoibhe's Grates Configs",
+  "createaoibhesgrates.configuration.section.createaoibhesgrates.common.toml": "Create: Aoibhe's Grates Configs",
+  "createaoibhesgrates.configuration.section.createaoibhesgrates.common.toml.title": "Create: Aoibhe's Grates Configs",
+  "createaoibhesgrates.configuration.items": "Item List",
+  "createaoibhesgrates.configuration.logDirtBlock": "Log Dirt Block",
+  "createaoibhesgrates.configuration.magicNumberIntroduction": "Magic Number Text",
+  "createaoibhesgrates.configuration.magicNumber": "Magic Number"
+}
