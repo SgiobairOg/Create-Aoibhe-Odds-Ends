@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "create:weathered_iron_block"
+  },
+  "result": {
+    "count": 1,
+    "id": "createaoibhesgrates:weathered_iron_grate"
+  }
+}

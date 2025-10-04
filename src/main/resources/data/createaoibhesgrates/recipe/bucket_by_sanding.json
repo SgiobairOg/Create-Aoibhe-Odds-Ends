@@ -1,0 +1,13 @@
+{
+  "type": "create:sandpaper_polishing",
+  "ingredients": [
+    {
+      "item": "createaoibhesgrates:rusty_bucket"
+    }
+  ],
+  "results": [
+    {
+      "id": "minecraft:bucket"
+    }
+  ]
+}
