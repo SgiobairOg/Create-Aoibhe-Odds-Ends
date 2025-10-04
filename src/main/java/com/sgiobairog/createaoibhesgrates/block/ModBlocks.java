@@ -22,6 +22,7 @@ public class ModBlocks {
     "weathered_iron_grate",
     () -> new Block(
       BlockBehaviour.Properties.of()
+        .noOcclusion()
         .strength(4f)
         .requiresCorrectToolForDrops()
         .sound(SoundType.METAL)

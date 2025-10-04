@@ -1,9 +1,10 @@
 {
+	"format_version": "1.9.0",
 	"credit": "Made with Blockbench",
 	"texture_size": [64, 64],
 	"textures": {
-		"0": "iron_catwalk:block/weathered_iron_catwalk",
-		"particle": "iron_catwalk:block/weathered_iron_catwalk"
+		"0": "createaoibhesgrates:block/weathered_iron_catwalk",
+		"particle": "createaoibhesgrates:block/weathered_iron_catwalk"
 	},
 	"elements": [
 		{
