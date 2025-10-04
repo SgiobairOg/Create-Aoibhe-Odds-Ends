@@ -9,5 +9,8 @@
   "createaoibhesgrates.configuration.items": "Item List",
   "createaoibhesgrates.configuration.logDirtBlock": "Log Dirt Block",
   "createaoibhesgrates.configuration.magicNumberIntroduction": "Magic Number Text",
-  "createaoibhesgrates.configuration.magicNumber": "Magic Number"
+  "createaoibhesgrates.configuration.magicNumber": "Magic Number",
+
+  "creativetab.createaoibhesgrates.aoibhes_items": "Aoibhe's Grates",
+  "creativetab.createaoibhesgrates.aoibhes_blocks": "Aoibhe's Grates: Building Blocks"
 }

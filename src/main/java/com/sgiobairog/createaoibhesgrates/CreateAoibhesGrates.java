@@ -4,6 +4,7 @@ import org.slf4j.Logger;
 
 import com.mojang.logging.LogUtils;
 import com.sgiobairog.createaoibhesgrates.block.ModBlocks;
+import com.sgiobairog.createaoibhesgrates.item.ModCreativeModeTabs;
 import com.sgiobairog.createaoibhesgrates.item.ModItems;
 
 import net.minecraft.world.item.CreativeModeTabs;
@@ -28,8 +29,9 @@ public class CreateAoibhesGrates {
 
         NeoForge.EVENT_BUS.register(this);
 
-        ModItems.register(modEventBus);
+        ModCreativeModeTabs.register(modEventBus);
 
+        ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
 
         modEventBus.addListener(this::addCreative);
