@@ -5,6 +5,7 @@ import java.util.function.Supplier;
 import com.sgiobairog.createaoibhesgrates.CreateAoibhesGrates;
 import com.sgiobairog.createaoibhesgrates.item.ModItems;
 
+import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.SoundType;
@@ -23,7 +24,7 @@ public class ModBlocks {
       BlockBehaviour.Properties.of()
         .strength(4f)
         .requiresCorrectToolForDrops()
-        .sound(SoundType.IRON)
+        .sound(SoundType.METAL)
   ));
   
   private static <T extends Block> DeferredBlock<T> registerBlock(String name, Supplier<T> block) {
@@ -33,11 +34,7 @@ public class ModBlocks {
   }
 
   private static <T extends Block> void registerBlockItem(String name, DeferredBlock<T> block) {
-    ModItems.ITEMS.registerItem(
-      "rusty_bucket",
-      Item::new,
-      new Item.Properties()
-    );
+    ModItems.ITEMS.register(name, () -> new BlockItem(block.get(), new Item.Properties()));
   }
 
   public static void register(IEventBus eventBus) {

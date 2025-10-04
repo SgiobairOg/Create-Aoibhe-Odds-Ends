@@ -10,10 +10,9 @@ import net.neoforged.neoforge.registries.DeferredRegister;
 public class ModItems {
   public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(CreateAoibhesGrates.MODID);
 
-  public static final DeferredItem<Item> RUSTY_BUCKET = ITEMS.registerItem(
+  public static final DeferredItem<Item> RUSTY_BUCKET = ITEMS.register(
     "rusty_bucket",
-    Item::new,
-    new Item.Properties()
+    () -> new Item(new Item.Properties())
   );
 
   public static void register(IEventBus eventBus) {
