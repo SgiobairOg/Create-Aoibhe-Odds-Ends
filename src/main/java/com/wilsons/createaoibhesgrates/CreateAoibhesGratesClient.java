@@ -1,4 +1,4 @@
-package com.wilsons.createaoibhesgrates;
+package com.sgiobairog.createaoibhesgrates;
 
 import net.minecraft.client.Minecraft;
 import net.neoforged.api.distmarker.Dist;
