@@ -1,7 +1,7 @@
 {
   "itemGroup.createaoibhesgrates": "Example Mod Tab",
   "block.createaoibhesgrates.example_block": "Example Block",
-  "item.createaoibhesgrates.example_item": "Example Item",
+  "item.createaoibhesgrates.rusty_bucket": "Rusty Bucket",
 
   "createaoibhesgrates.configuration.title": "Create: Aoibhe's Grates Configs",
   "createaoibhesgrates.configuration.section.createaoibhesgrates.common.toml": "Create: Aoibhe's Grates Configs",

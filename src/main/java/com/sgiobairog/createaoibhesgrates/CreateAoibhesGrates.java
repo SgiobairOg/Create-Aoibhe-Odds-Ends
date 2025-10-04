@@ -3,8 +3,9 @@ package com.sgiobairog.createaoibhesgrates;
 import org.slf4j.Logger;
 
 import com.mojang.logging.LogUtils;
+import com.sgiobairog.createaoibhesgrates.item.ModItems;
 
-
+import net.minecraft.world.item.CreativeModeTabs;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.fml.common.Mod;
@@ -26,6 +27,8 @@ public class CreateAoibhesGrates {
 
         NeoForge.EVENT_BUS.register(this);
 
+        ModItems.register(modEventBus);
+
         modEventBus.addListener(this::addCreative);
 
         modContainer.registerConfig(ModConfig.Type.COMMON, Config.SPEC);
@@ -36,6 +39,9 @@ public class CreateAoibhesGrates {
     }
 
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
+      if(event.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
+        event.accept(ModItems.RUSTY_BUCKET);
+      }
 
     }
 
