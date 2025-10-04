@@ -3,6 +3,7 @@ package com.sgiobairog.createaoibhesgrates;
 import org.slf4j.Logger;
 
 import com.mojang.logging.LogUtils;
+import com.sgiobairog.createaoibhesgrates.block.ModBlocks;
 import com.sgiobairog.createaoibhesgrates.item.ModItems;
 
 import net.minecraft.world.item.CreativeModeTabs;
@@ -29,6 +30,8 @@ public class CreateAoibhesGrates {
 
         ModItems.register(modEventBus);
 
+        ModBlocks.register(modEventBus);
+
         modEventBus.addListener(this::addCreative);
 
         modContainer.registerConfig(ModConfig.Type.COMMON, Config.SPEC);
@@ -43,6 +46,9 @@ public class CreateAoibhesGrates {
         event.accept(ModItems.RUSTY_BUCKET);
       }
 
+      if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
+        event.accept(ModBlocks.WEATHERED_IRON_GRATE);
+      }
     }
 
     @SubscribeEvent

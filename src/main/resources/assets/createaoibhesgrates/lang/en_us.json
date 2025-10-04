@@ -1,6 +1,6 @@
 {
   "itemGroup.createaoibhesgrates": "Example Mod Tab",
-  "block.createaoibhesgrates.example_block": "Example Block",
+  "block.createaoibhesgrates.weathered_iron_grate": "Weathered Iron Grate",
   "item.createaoibhesgrates.rusty_bucket": "Rusty Bucket",
 
   "createaoibhesgrates.configuration.title": "Create: Aoibhe's Grates Configs",
