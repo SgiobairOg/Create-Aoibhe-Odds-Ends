@@ -1,0 +1,13 @@
+{
+  "type": "create:sandpaper_polishing",
+  "ingredients": [
+    {
+      "item": "create_aoibhes_odds_ends:rusty_bucket"
+    }
+  ],
+  "results": [
+    {
+      "id": "minecraft:bucket"
+    }
+  ]
+}

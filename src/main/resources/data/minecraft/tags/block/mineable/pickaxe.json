@@ -1,7 +1,7 @@
 {
   "replace": false,
   "values": [
-    "createaoibhesgrates:kamidana",
-    "createaoibhesgrates:weathered_iron_grate"
+    "create_aoibhes_odds_ends:kamidana",
+    "create_aoibhes_odds_ends:weathered_iron_grate"
   ]
 }

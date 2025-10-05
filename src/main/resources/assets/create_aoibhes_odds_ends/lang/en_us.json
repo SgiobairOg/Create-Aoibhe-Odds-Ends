@@ -1,0 +1,17 @@
+{
+  "itemGroup.create_aoibhes_odds_ends": "Example Mod Tab",
+  "block.create_aoibhes_odds_ends.kamidana": "Kamidana",
+  "block.create_aoibhes_odds_ends.weathered_iron_grate": "Weathered Iron Grate",
+  "item.create_aoibhes_odds_ends.rusty_bucket": "Rusty Bucket",
+
+  "create_aoibhes_odds_ends.configuration.title": "Create: Aoibhe's Odds & Ends",
+  "create_aoibhes_odds_ends.configuration.section.create_aoibhes_odds_ends.common.toml": "Create: Aoibhe's Odds & Ends Configs",
+  "create_aoibhes_odds_ends.configuration.section.create_aoibhes_odds_ends.common.toml.title": "Create: Aoibhe's Odds & Ends Configs",
+  "create_aoibhes_odds_ends.configuration.items": "Item List",
+  "create_aoibhes_odds_ends.configuration.logDirtBlock": "Log Dirt Block",
+  "create_aoibhes_odds_ends.configuration.magicNumberIntroduction": "Magic Number Text",
+  "create_aoibhes_odds_ends.configuration.magicNumber": "Magic Number",
+
+  "creativetab.create_aoibhes_odds_ends.aoibhes_items": "Aoibhe's Odds",
+  "creativetab.create_aoibhes_odds_ends.aoibhes_blocks": "Aoibhe's Ends"
+}
