@@ -32,6 +32,7 @@ public class ModCreativeModeTabs {
         .title(Component.translatable("creativetab.createaoibhesgrates.aoibhes_blocks"))
         .displayItems((itemDisplayParameters, output) -> {
           output.accept(ModItems.RUSTY_BUCKET);
+          output.accept(ModBlocks.KAMIDANA);
           output.accept(ModBlocks.WEATHERED_IRON_GRATE);
         }).build());
 

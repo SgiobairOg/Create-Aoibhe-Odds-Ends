@@ -48,6 +48,10 @@ public class CreateAoibhesGrates {
         event.accept(ModItems.RUSTY_BUCKET);
       }
 
+      if(event.getTabKey() == CreativeModeTabs.FUNCTIONAL_BLOCKS) {
+        event.accept(ModBlocks.KAMIDANA);
+      }
+
       if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
         event.accept(ModBlocks.WEATHERED_IRON_GRATE);
       }

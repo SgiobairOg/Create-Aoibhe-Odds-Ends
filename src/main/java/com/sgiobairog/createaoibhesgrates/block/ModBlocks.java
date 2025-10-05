@@ -27,6 +27,16 @@ public class ModBlocks {
         .requiresCorrectToolForDrops()
         .sound(SoundType.METAL)
   ));
+
+  public static final DeferredBlock<Block> KAMIDANA = registerBlock(
+    "kamidana",
+    () -> new Block(
+      BlockBehaviour.Properties.of()
+        .noOcclusion()
+        .strength(1f)
+        .requiresCorrectToolForDrops()
+        .sound(SoundType.WOOD)
+  ));
   
   private static <T extends Block> DeferredBlock<T> registerBlock(String name, Supplier<T> block) {
     DeferredBlock<T> toReturn = BLOCKS.register(name, block);

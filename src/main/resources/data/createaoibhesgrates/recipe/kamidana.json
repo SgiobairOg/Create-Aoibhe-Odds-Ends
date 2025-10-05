@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "S": {
+      "item": "minecraft:stick"
+    },
+    "L": {
+      "tag": "minecraft:wooden_slabs"
+    },
+    "T": {
+      "item": "minecraft:terracotta"
+    },
+    "W": {
+      "tag": "minecraft:wool"
+    }
+  },
+  "pattern": [
+    "SLS",
+    "TWT",
+    "LLL"
+  ],
+  "result": {
+    "count": 1,
+    "id": "createaoibhesgrates:kamidana"
+  },
+  "show_notification": true
+}
