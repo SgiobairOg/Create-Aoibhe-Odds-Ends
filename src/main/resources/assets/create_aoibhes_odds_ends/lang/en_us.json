@@ -3,6 +3,7 @@
   "block.create_aoibhes_odds_ends.kamidana": "Kamidana",
   "block.create_aoibhes_odds_ends.weathered_iron_grate": "Weathered Iron Grate",
   "item.create_aoibhes_odds_ends.rusty_bucket": "Rusty Bucket",
+  "item.create_aoibhes_odds_ends.magic_bucket": "Magic Bucket",
 
   "create_aoibhes_odds_ends.configuration.title": "Create: Aoibhe's Odds & Ends",
   "create_aoibhes_odds_ends.configuration.section.create_aoibhes_odds_ends.common.toml": "Create: Aoibhe's Odds & Ends Configs",

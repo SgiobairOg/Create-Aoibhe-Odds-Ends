@@ -1,6 +1,7 @@
 package com.sgiobairog.create_aoibhes_odds_ends.item;
 
 import com.sgiobairog.create_aoibhes_odds_ends.CreateAoibhesOddsEnds;
+import com.sgiobairog.create_aoibhes_odds_ends.item.custom.BucketItem;
 
 import net.minecraft.world.item.Item;
 import net.neoforged.bus.api.IEventBus;
@@ -13,6 +14,11 @@ public class ModItems {
   public static final DeferredItem<Item> RUSTY_BUCKET = ITEMS.register(
     "rusty_bucket",
     () -> new Item(new Item.Properties())
+  );
+
+  public static final DeferredItem<Item> MAGIC_BUCKET = ITEMS.register(
+    "magic_bucket", 
+    () -> new BucketItem(new Item.Properties().durability(32))
   );
 
   public static void register(IEventBus eventBus) {

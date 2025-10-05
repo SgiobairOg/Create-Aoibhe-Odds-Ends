@@ -23,6 +23,7 @@ public class ModCreativeModeTabs {
         .title(Component.translatable("creativetab.create_aoibhes_odds_ends.aoibhes_items"))
         .displayItems((itemDisplayParameters, output) -> {
           output.accept(ModItems.RUSTY_BUCKET);
+          output.accept(ModItems.MAGIC_BUCKET);
           output.accept(ModBlocks.WEATHERED_IRON_GRATE);
         }).build());
 
